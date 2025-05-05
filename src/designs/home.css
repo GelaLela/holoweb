@@ -92,7 +92,7 @@
   transition: all 0.3s ease;
   margin-top: 30px;
   font-weight: bold;
-  border: 3px solid rgba(96, 93, 252, 0.8);
+  border: 3px solid rgba(96, 93, 252, 0.444);
 }
 
 .cta-button:hover {
