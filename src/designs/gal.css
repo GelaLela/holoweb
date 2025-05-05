@@ -1,0 +1,105 @@
+.section-gallery {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.gallery-container {
+  animation: fadeIn 0.8s ease-in;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-title {
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideInLeft 1s forwards;
+
+  font-family: 'Noto Sans', sans-serif;
+  background: linear-gradient(to right, #ddf596, #ff02ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 20px 20px 20px #596a7c, 0px 0px 20px #05123c inset;
+  margin-bottom: -50px;
+  font-weight: bolder;
+}
+
+.gallery-subtitle {
+  animation: fadeIn 0.5s ease-in;
+  margin-top: 5vh;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+
+  font-family: 'Noto Sans', sans-serif;
+  background: linear-gradient(to right, #8f80f6, #ff62ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gallery-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 9px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+  border-radius: 9px;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.overlay{
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* start transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.overlay-text {
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  padding: 10px;
+}
+
+.gallery-item:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item:hover .overlay-text {
+  opacity: 1;
+}

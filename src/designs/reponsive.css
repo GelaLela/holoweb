@@ -1,0 +1,146 @@
+@media (max-width: 1024px) {
+    .gallery-container,
+    .projects-container,
+    .footer,
+    .back-to-top,
+    .home-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .icon-container{
+        padding: 10vh;
+        margin-top: -50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .gaming-content{
+        margin: 5vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .drawing-content{
+        margin: 5vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .coding-content{
+        margin: 5vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+  
+    .image-main{
+        margin-top: 30px;
+        max-width: 100%;
+        transform: none !important;
+    }
+    .image-main1,
+    .image-main2 {
+      max-width: 100%;
+      transform: none !important;
+    }
+  
+    .text-gaming,
+    .text-drawing,
+    .text-content {
+      max-width: 90%;
+    }
+  
+    .title-header,
+    .gallery-title,
+    .cont-title {
+      font-size: 4vh; 
+      margin-bottom: 20px;
+    }
+
+    .back-to-top {
+        display: block;
+      }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+      gap: 10px;
+    }
+
+    .icon-container a{
+        font-size: 20px;
+    }
+    .icon-image {
+        width: 20px;
+        height: 20px;
+      }
+
+    .gallery-item {
+        max-width: 100%;
+        aspect-ratio: 4 / 6; 
+      }
+    
+      .gallery-image {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      .gallery-subtitle{
+        margin-top: -35px;
+      }
+      .overlay-text{
+        font-size: 10px;
+      }
+    .portfolio-title {
+      font-size: 2rem;
+    }
+  
+    .portfolio-description {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+  
+    .background-home,
+    .background-about,
+    .background-projects,
+    .background-gallery,
+    .background-contacts {
+      margin: 20px 10px;
+      padding: 10px;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    html, body{
+        overflow-x: hidden;
+        background-attachment: scroll;
+        max-height: 100vh; 
+        background-attachment: scroll;
+    }
+    .splash-gif {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+  }

@@ -1,0 +1,65 @@
+.section-contact {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 0.7s ease-in;
+}
+
+.text-content2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.cont-title {
+  font-size: 7vh;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideInLeft 1s forwards;
+
+  font-family: 'Noto Sans', sans-serif;
+  background: linear-gradient(to right, #ddf596, #ff02ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 20px 20px 20px #596a7c, 0px 0px 20px #05123c inset;
+  margin-bottom: -50px;
+  font-weight: bolder;
+}
+
+.icon-container {
+  margin-top: 15vb;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container a{
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 30px;
+  color: #3a3a90;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 30px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.icon-container a:hover {
+  color: rgba(249, 42, 242, 0.614);
+  transform:rotate(2deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.icon-image {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.icon-image:hover {
+  transform: scale(1.2); 
+}

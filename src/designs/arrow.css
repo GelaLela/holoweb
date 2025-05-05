@@ -1,0 +1,30 @@
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #88fff543;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(52, 184, 255, 0.836);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 1000;
+}
+  
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.back-to-top:hover {
+  background-color: #06c4af;
+}
+
+  

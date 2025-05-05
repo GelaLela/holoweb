@@ -1,0 +1,59 @@
+.background-home {
+  animation: fadeIn 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #e78af7a8, #40eaf6a4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 40px;
+  box-shadow: #09f7e3 0px 0px 20px 0px, #09f7e3 0px 0px 20px 0px inset;
+  backdrop-filter: blur(3px);
+}
+
+.background-about {
+  animation: fadeIn 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #e78af7a8, #40eaf6a4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 40px;
+  box-shadow: rgb(243, 255, 115) 0px 0px 20px 0px, rgb(243, 255, 115) 0px 0px 20px 0px inset;
+  backdrop-filter: blur(3px);
+}
+
+.background-projects {
+  animation: fadeIn 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #e78af7a8, #40eaf6a4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 40px;
+  box-shadow: #ff6abe 0px 0px 20px 0px, #ff6abe 0px 0px 20px 0px inset;
+  backdrop-filter: blur(3px);
+}
+
+.background-gallery {
+  animation: fadeIn 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #e78af7a8, #40eaf6a4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 40px;
+  box-shadow: #9207fc 0px 0px 20px 0px, #9207fc 0px 0px 20px 0px inset;
+  backdrop-filter: blur(3px);
+}
+
+.background-contacts {
+  animation: fadeIn 0.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #e78af7a8, #40eaf6a4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 40px;
+  box-shadow: #f75409 0px 0px 20px 0px, #f75409 0px 0px 20px 0px inset;
+  backdrop-filter: blur(3px);
+}

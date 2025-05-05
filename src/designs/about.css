@@ -1,0 +1,118 @@
+.section-about {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in;
+  margin-top: -10px;
+}
+
+
+.title-header {
+    font-size: 7vh;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slideInLeft 1s forwards;
+
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(to right, #ddf596, #ff02ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 20px 20px 20px #596a7c, 0px 0px 20px #05123c inset;
+    margin-bottom: -50px;
+    font-weight: bolder;
+  }
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+  
+.gaming-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+  border-bottom: #7ad4f3d2 5px solid ;
+  border-bottom-style: dotted; 
+    
+}
+  
+.text-gaming {
+  max-width: 600px;
+  text-align: justify;
+}
+  
+.image-main1 {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  flex: 1;
+  border: #ccdd36 2px solid;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  opacity: 5;
+  box-shadow: #f4ab91 0 0 20px, #f72909 20px 20px 20px 20px inset;
+}
+
+.image-main1:hover {
+  transform: scale(1.3);
+  box-shadow: #f2ff68 0 0 20px, #09f7e3 20px 20px 20px 20px inset;
+  opacity: 1;
+}
+  
+
+.image-main2 {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  flex: 1;
+  border: #ccdd36 2px solid;
+  box-shadow: #f4ab91 0 0 20px, #f72909 20px 20px 20px 20px inset;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  opacity: 5;
+}
+
+.image-main2:hover {
+  transform: scale(1.3);
+  box-shadow: #f2ff68 0 0 20px, #09f7e3 20px 20px 20px 20px inset;
+  opacity: 1;
+}
+  
+.drawing-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+  border-bottom: #7ad4f3d2 5px solid ; 
+  border-bottom-style: dotted;
+}
+  
+.text-drawing {
+  max-width: 600px;
+  text-align: justify;
+  
+}
+
+
+
+.coding-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+    
+}
+  
