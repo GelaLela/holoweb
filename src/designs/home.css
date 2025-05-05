@@ -88,11 +88,11 @@
   padding: 12px 30px;
   border-radius: 25px;
   text-decoration: none;
-  box-shadow:  0 0 20px rgba(252, 93, 252, 0.692);
+  box-shadow: 0 0 20px rgba(252, 93, 252, 0.692);
   transition: all 0.3s ease;
   margin-top: 30px;
   font-weight: bold;
-  border: 3px solid 0 0 25px rgba(96, 93, 252, 0.8);
+  border: 3px solid rgba(96, 93, 252, 0.8);
 }
 
 .cta-button:hover {
