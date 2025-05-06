@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/holoweb/static/css/main.18a1c5f9.css",
-    "main.js": "/holoweb/static/js/main.4e404db3.js",
+    "main.js": "/holoweb/static/js/main.07fc591a.js",
     "static/media/holo1.gif": "/holoweb/static/media/holo1.4a930f53468a9f5d024c.gif",
     "static/media/fnf.gif": "/holoweb/static/media/fnf.6ab84438973c97a9d117.gif",
     "static/media/project12.png": "/holoweb/static/media/project12.465d0f89fe52e7d6d3e6.png",
@@ -36,10 +36,10 @@
     "static/media/Hololive_logo.png": "/holoweb/static/media/Hololive_logo.9660de018113c8c1f192.png",
     "index.html": "/holoweb/index.html",
     "main.18a1c5f9.css.map": "/holoweb/static/css/main.18a1c5f9.css.map",
-    "main.4e404db3.js.map": "/holoweb/static/js/main.4e404db3.js.map"
+    "main.07fc591a.js.map": "/holoweb/static/js/main.07fc591a.js.map"
   },
   "entrypoints": [
     "static/css/main.18a1c5f9.css",
-    "static/js/main.4e404db3.js"
+    "static/js/main.07fc591a.js"
   ]
 }
