@@ -62,7 +62,6 @@ function App() {
               <Route path="/projects" element={<Projects />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/contacts" element={<Contacts />} />
-              {/* Redirect unmatched paths to Home */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </div>
