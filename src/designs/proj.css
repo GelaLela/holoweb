@@ -59,8 +59,19 @@
   margin-bottom: 10px;
 }
 
-.blurred-image {
-  filter: blur(10px); 
+.project-image.blurred-image {
+  filter: blur(10px);
+  transform: scale(1.05);
+  overflow: hidden;
 }
 
+.project-card .private-label {
+  font-family: 'Courier New', Courier, monospace;
+  color: #ac69d284; 
+  font-weight: bold;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
 
