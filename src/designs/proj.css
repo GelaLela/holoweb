@@ -59,3 +59,8 @@
   margin-bottom: 10px;
 }
 
+.blurred-image {
+  filter: blur(8px); 
+}
+
+
