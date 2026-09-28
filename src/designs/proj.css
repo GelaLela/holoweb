@@ -12,11 +12,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 20px; 
-  
+  gap: 20px;
 }
+
 .project-card {
-  
   height: 300px;
   background: linear-gradient(to bottom right, #db88fca8, #2df8c26c);
   border-radius: 15px;
@@ -51,26 +50,88 @@
   text-decoration: underline;
 }
 
-.project-image {
+
+/* ========================================
+   PROJECT IMAGE
+   ======================================== */
+
+.project-image-wrapper {
+  position: relative;
   width: 100%;
   height: 150px;
-  object-fit: cover;
+  overflow: hidden;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
-.project-image.blurred-image {
-  filter: blur(10px) !important;
-  transform: scale(1.05);
+.project-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
 }
+
+
+/* ========================================
+   PRIVATE PROJECT IMAGE
+   ======================================== */
+
+.private-image {
+  filter: blur(8px);
+  transform: scale(1.08);
+}
+
+
+/* ========================================
+   PRIVATE PROJECT OVERLAY
+   ======================================== */
+
+.private-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.35);
+
+  border-radius: 10px;
+
+  pointer-events: none;
+}
+
+.private-overlay span {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 8px 12px;
+
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 6px;
+}
+
+
+/* ========================================
+   PRIVATE LABEL
+   ======================================== */
 
 .project-card .private-label {
   font-family: 'Courier New', Courier, monospace;
-  color: #ac69d284; 
+  color: #ac69d284;
   font-weight: bold;
   font-size: 0.95rem;
   letter-spacing: 1px;
   cursor: not-allowed;
   opacity: 0.7;
 }
-
