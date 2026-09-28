@@ -60,7 +60,7 @@
 }
 
 .blurred-image {
-  filter: blur(8px); 
+  filter: blur(10px); 
 }
 
 
