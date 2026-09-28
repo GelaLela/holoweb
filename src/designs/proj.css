@@ -60,9 +60,8 @@
 }
 
 .project-image.blurred-image {
-  filter: blur(10px);
+  filter: blur(10px) !important;
   transform: scale(1.05);
-  overflow: hidden;
 }
 
 .project-card .private-label {
