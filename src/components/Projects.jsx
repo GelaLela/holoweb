@@ -9,9 +9,9 @@ export default function Projects() {
   const projectList = [
     { title: "ART PORTFOLIO", link: "https://teryu-artportfolio.netlify.app/", image: proj1 },
     { title: "MANGA LIBRARY", link: "https://teryu-mangalibrary.netlify.app/", image: proj2 },
-    { title: "RESPONSIVE PROFILE", link: "https://gelalela.github.io/profile-responsive/#", image: proj3 },
+    { title: "RESPONSIVE PROFILE", link: "https://gelalela.github.io/profile-responsive/#", class="blurred-image", image: proj3 },
     { title: "RESPONSIVE WEBSITE", link: "https://gelalela.github.io/reponsive-website/", image: proj5 },
-    { title: "PORTFOLIO", link: "https://gelalela.github.io/portfolio/#home", image: proj4 },
+    { title: "PORTFOLIO", link: "https://gelalela.github.io/portfolio/#home", class="blurred-image", image: proj4 },
   ];
   
   return (
